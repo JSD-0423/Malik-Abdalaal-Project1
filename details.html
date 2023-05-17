@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <script>
+    // JavaScript code for dark mode toggle
+    function toggleDarkMode() {
+      const body = document.querySelector('body');
+      body.classList.toggle('dark-mode');
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>Web Topics</h1>
+      <div>
+        <button onclick="toggleDarkMode()">
+          <ion-icon name="moon-outline"></ion-icon>
+          Dark Mode
+        </button>
+        
+        <button>
+          <ion-icon name="heart-outline"></ion-icon>
+          Favorites
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="welcome-section">
+    <div class="container">
+      <h2>Welcome to our website!</h2>
+      <p>We have a new design that's fresh, modern, and easy to use.</p>
+    </div>
+  </section>
+  <div class="course-description">
+    <div class="course-span">
+      <div class="category-type">Web Develpment Languages</div>
+      <div class="course">HTML</div>
+      <div class="star-rating">
+        <span class="star">&#9734;</span>
+        <span class="star">&#9734;</span>
+        <span class="star">&#9734;</span>
+        <span class="star">&#9734;</span>
+        <span class="star">&#9734;</span>
+      </div>
+      <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, quisquam distinctio dolores quidem unde doloribus placeat officiis dicta est enim dignissimos soluta iste sapiente, ipsa cupiditate architecto, eaque libero voluptate.</span>
+  </div>
+  <div class="course-favorite">
+    <div class="box">
+      <img src="images/angular.png" alt="Angular script image">
+      <div class="content">
+        <div class="category">Frontend Frameworks and Libraries</div>
+        <div class="title">Angular</div>
+      
+        <div>Author: Jessica Davis</div>
+      </div>
+    
+    </div>
+  </div>
+  </div>
+
+  <section class="sub-topics-container">
+    <h1>HTML Sub Topics</h1>
+    <ul>
+        <li class="topic">
+            <ion-icon name="checkmark-circle-outline" class="check-icon"></ion-icon>
+            HTML syntax
+            and structure
+        </li>
+        <li class="topic">
+            <ion-icon name="checkmark-circle-outline" class="check-icon"></ion-icon>
+            HTML syntax
+            and structure
+        </li>
+        <li class="topic">
+            <ion-icon name="checkmark-circle-outline" class="check-icon"></ion-icon>
+            HTML syntax
+            and structure
+        </li>
+        <li class="topic">
+            <ion-icon name="checkmark-circle-outline" class="check-icon"></ion-icon>
+            HTML syntax
+            and structure
+        </li>
+        <li class="topic">
+            <ion-icon name="checkmark-circle-outline" class="check-icon"></ion-icon>
+            HTML syntax
+            and structure
+        </li>
+        <li class="topic">
+            <ion-icon name="checkmark-circle-outline" class="check-icon"></ion-icon>
+            HTML syntax
+            and structure
+        </li>
+        <li class="topic">
+            <ion-icon name="checkmark-circle-outline" class="check-icon"></ion-icon>
+            HTML syntax
+            and structure
+        </li>
+    </ul>
+</section>
+  
+  <footer>
+    Developed with <span class="heart">❤</span> &copy; 2023
+  </footer>
+  <!-- Rest of your page content goes here -->
+  <script src="script.js"></script>
+</body>
+</html>
